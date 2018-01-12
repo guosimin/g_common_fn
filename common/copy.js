@@ -11,7 +11,9 @@
  * */
 
 
-function copy(data,successFn,errorFn) {
+
+
+exports.copy = function(data,successFn,errorFn) {
     if (window.clipboardData) {
         window.clipboardData.setData("Text", data);
     }else{
@@ -51,6 +53,4 @@ function copy(data,successFn,errorFn) {
             el.remove();
         }
     }
-}
-
-exports.copy = copy;
+};
