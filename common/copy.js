@@ -13,7 +13,7 @@
 
 
 
-exports.copy = function(data,successFn,errorFn) {
+module.exports = function(data,successFn,errorFn) {
     if (window.clipboardData) {
         window.clipboardData.setData("Text", data);
     }else{
