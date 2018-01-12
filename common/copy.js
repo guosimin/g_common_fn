@@ -7,12 +7,16 @@
  * ============ ======= ======================================================
  * 2018/1/11      1.0     First version
  *
- * Copyright 2016, all rights reserved. Essa.cn
+ * 注意：需要依赖jquery
  * */
 
 
-
-
+/**
+ * 复制方法
+ * @param data 需要复制的数据
+ * @param successFn 成功时调用的方法
+ * @param errorFn 失败时调用的方法
+ */
 module.exports = function(data,successFn,errorFn) {
     if (window.clipboardData) {
         window.clipboardData.setData("Text", data);

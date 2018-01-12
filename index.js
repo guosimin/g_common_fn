@@ -11,5 +11,17 @@
  * */
 
 module.exports = {
-    copy:require('./common/copy')
+    /**
+     * 功能类
+     */
+    //复制
+    copy:require('./common/copy'),
+
+    /**
+     * 判断类
+     */
+    //判断两个对象是否相等
+    isEqualObj:require('./common/isEqualObj'),
+    //判断是否空数组
+    isEmptyArray:require('./common/isEmptyArray'),
 }
