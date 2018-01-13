@@ -16,6 +16,8 @@ module.exports = {
      */
     //复制
     copy:require('./common/copy'),
+    //数组去重
+    arrayUnique:require('./common/arrayUnique'),
 
     /**
      * 判断类
@@ -31,5 +33,5 @@ module.exports = {
     //数字-四舍五入
     mathToFixed:require('./common/mathToFixed'),
     //数字-精确相乘
-    matchMultiply:require('./common/matchMultiply')
+    matchMultiply:require('./common/matchMultiply'),
 }

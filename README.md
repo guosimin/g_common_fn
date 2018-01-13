@@ -5,6 +5,9 @@ common method 一些常用的方法
 1. copy
 > 复制指定内容
 
+2.arrayUnique
+> 数组去重
+
 
 ## 判断类
 1.isEqualObj
