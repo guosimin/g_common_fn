@@ -24,4 +24,10 @@ module.exports = {
     isEqualObj:require('./common/isEqualObj'),
     //判断是否空数组
     isEmptyArray:require('./common/isEmptyArray'),
+
+    /**
+     * 数字处理类
+     */
+    //数字-四舍五入
+    mathToFixed:require('./common/mathToFixed'),
 }
