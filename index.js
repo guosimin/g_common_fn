@@ -30,4 +30,6 @@ module.exports = {
      */
     //数字-四舍五入
     mathToFixed:require('./common/mathToFixed'),
+    //数字-精确相乘
+    matchMultiply:require('./common/matchMultiply')
 }

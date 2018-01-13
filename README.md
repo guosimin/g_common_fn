@@ -17,3 +17,6 @@ common method 一些常用的方法
 ## 数字处理类
 1.mathToFixed
 > 数字-四舍五入
+
+2.matchMultiply
+> 数字-精确相乘
