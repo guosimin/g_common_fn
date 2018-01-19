@@ -12,7 +12,7 @@
 
 /**
  * 数组-去重
- * @param1 {Array}
+ * @param {Array}
  * @return {Array}
  */
 module.exports = function (param) {

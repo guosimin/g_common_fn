@@ -12,7 +12,7 @@
 /**
  * 判断两个对象是否相等
  * @param [object] obj1 对象1
- * @param [object] obj1 对象2
+ * @param [object] obj2 对象2
  */
 module.exports = function (obj1,obj2){
     var stringA = JSON.stringify(obj1);
