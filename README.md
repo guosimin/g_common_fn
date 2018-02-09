@@ -17,15 +17,18 @@ commonFn.copy("要复制的内容");
 
 ## 主要方法：
 
-### 功能类
+#### 功能类
 1.copy(data,successFn,errorFn)
 > 复制指定内容
 
 2.arrayUnique(param)
 > 数组去重
 
+3.getUrlParamsByName(name,url);
+通过名字获取url参数
 
-### 判断类
+
+#### 判断类
 1.isEqualObj(obj1,obj2)
 > 判断两个对象是否相等
 
@@ -33,7 +36,7 @@ commonFn.copy("要复制的内容");
 > 判断是否空数组
 
 
-### 数字处理类
+#### 数字处理类
 1.mathToFixed(param1,param2)
 > 数字-四舍五入
 
