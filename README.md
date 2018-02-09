@@ -25,7 +25,7 @@ commonFn.copy("要复制的内容");
 > 数组去重
 
 3.getUrlParamsByName(name,url);
-通过名字获取url参数
+> 通过名字获取url参数
 
 
 #### 判断类
