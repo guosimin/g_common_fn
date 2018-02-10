@@ -18,6 +18,10 @@ module.exports = {
     copy:require('./common/copy'),
     //数组去重
     arrayUnique:require('./common/arrayUnique'),
+    //通过名字获取url参数
+    getUrlParamsByName:require('./common/getUrlParamsByName'),
+    //多条件排序
+    multiSort:require('./common/multiSort'),
 
     /**
      * 判断类
