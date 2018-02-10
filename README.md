@@ -27,6 +27,9 @@ commonFn.copy("要复制的内容");
 3.getUrlParamsByName(name,url);
 > 通过名字获取url参数
 
+3.multiSort(name,url);
+> 多条件组合排序
+
 
 #### 判断类
 1.isEqualObj(obj1,obj2)
