@@ -40,7 +40,7 @@ module.exports = function(data,successFn,errorFn) {
         try {
             success = document.execCommand("copy", false, null);
             if(typeof successFn == 'function'){
-                errorFn();
+                successFn();
             }else{
                 alert('复制成功');
             }
