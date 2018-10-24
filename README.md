@@ -27,8 +27,11 @@ commonFn.copy("要复制的内容");
 3.getUrlParamsByName(name,url);
 > 通过名字获取url参数
 
-3.multiSort(name,url);
+4.multiSort(name,url);
 > 多条件组合排序
+
+5.trim(str)
+> 去除字符串中空格
 
 
 #### 判断类
