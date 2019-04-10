@@ -33,6 +33,9 @@ commonFn.copy("要复制的内容");
 5.[trim(str)](https://github.com/guosimin/g_common_fn/blob/master/common/trim.js)
 > 去除字符串中空格
 
+6.[HTMLDecode(html)](https://github.com/guosimin/g_common_fn/blob/master/common/HTMLDecode.js)
+> 还原转义的html
+
 
 #### 判断类
 1.[isEqualObj(obj1,obj2)](https://github.com/guosimin/g_common_fn/blob/master/common/isEqualObj.js)
