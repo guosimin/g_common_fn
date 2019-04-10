@@ -27,7 +27,7 @@ commonFn.copy("要复制的内容");
 3.getUrlParamsByName(name,url);
 > 通过名字获取url参数
 
-4.multiSort(name,url);
+4.multiSort(name,conditionArray);
 > 多条件组合排序
 
 5.trim(str)
