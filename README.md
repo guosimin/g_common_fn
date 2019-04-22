@@ -36,13 +36,13 @@ commonFn.copy("要复制的内容");
 6.[HTMLDecode(html)](https://github.com/guosimin/g_common_fn/blob/master/common/HTMLDecode.js)
 > 还原转义的html
 
-7.[setCookies(name,value,expiredays)](https://github.com/guosimin/g_common_fn/blob/master/common/setCookies.js)
+7.[setCookie(name,value,expiredays)](https://github.com/guosimin/g_common_fn/blob/master/common/setCookie.js)
 > 设置cookies
 
-8.[getCookies(name)](https://github.com/guosimin/g_common_fn/blob/master/common/getCookies.js)
+8.[getCookie(name)](https://github.com/guosimin/g_common_fn/blob/master/common/getCookie.js)
 > 获取cookies
 
-9.[delCookies(name)](https://github.com/guosimin/g_common_fn/blob/master/common/delCookies.js)
+9.[delCookie(name)](https://github.com/guosimin/g_common_fn/blob/master/common/delCookie.js)
 > 删除cookies
 
 9.[copyObj(obj)](https://github.com/guosimin/g_common_fn/blob/master/common/copyObj.js)
