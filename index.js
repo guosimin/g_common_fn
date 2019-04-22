@@ -22,6 +22,19 @@ module.exports = {
     getUrlParamsByName:require('./common/getUrlParamsByName'),
     //多条件排序
     multiSort:require('./common/multiSort'),
+    //去除字符串中空格
+    trim:require('./common/trim'),
+    //还原转义的html
+    HTMLDecode:require('./common/HTMLDecode'),
+
+    // cookies处理
+    setCookies:require('./common/setCookies'),
+    getCookies:require('./common/getCookies'),
+    delCookies:require('./common/delCookies'),
+
+    //深度拷贝
+    copyObj:require('./common/copyObj'),
+
 
     /**
      * 判断类
